@@ -12,7 +12,7 @@ This sketch sets up the neo trinkey device as a macro keyboard. It does not keep
 
 Usage: 
 
-To set up the macros, edit the macros array, compile and write to device.
+To set up the macros, edit the macros array, compile and write to device. You can also create a macro.h file and enable (define) EXTERNAL_MACROS to keep the macros external to the code. Otherwise you can just edit the macro array in the .ino file 
 
 It lights the led that corresponds to the slot. So you touch button 2, and it rotates through the macros in the layer, and you know which one you are on by which one of the 4 leds is lit. then you touch the other button to write the macro (as a usb keyboard).
 
